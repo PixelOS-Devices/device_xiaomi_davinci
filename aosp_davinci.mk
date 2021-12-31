@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 
 # Inherit some common PixelOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := aosp_davinci
 PRODUCT_DEVICE := davinci
